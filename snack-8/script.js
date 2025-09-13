@@ -19,5 +19,8 @@ const students = [
   },
 ];
 
-// Recupera la classe dello studente 'Marco Lanci'
-// Risultato: '3C'
+//recupera la classe dello studente Lanci
+//"3C"
+
+const student = students.find(i => i.name.includes('Lanci'));
+console.log(student.class);
